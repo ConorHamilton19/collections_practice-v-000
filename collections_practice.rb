@@ -17,7 +17,7 @@ end
 
 
 
-def sort_array_desc(array)
+def reverse_array(array)
   array.sort{|a,b| b<=>a}
 end
 
