@@ -15,13 +15,9 @@ def swap_elements(array)
   array
 end
 
-def swap_elements_from_to(array, index, destination)
-  array[#{index}], array[#{destination}] = array[#{destination}], array[#{index}]
-  array
-end
+
 
 def reverse_array(array)
   array.collect {|words| words.reverse}
-end
 end
 
