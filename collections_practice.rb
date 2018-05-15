@@ -21,6 +21,6 @@ def swap_elements_from_to(array, index, destination)
 end
 
 def reverse_array(array)
-  array.
+  array.collect {|words| words.reverse}
 end
 
