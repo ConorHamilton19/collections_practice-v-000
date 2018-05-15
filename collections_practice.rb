@@ -23,4 +23,5 @@ end
 def reverse_array(array)
   array.collect {|words| words.reverse}
 end
+end
 
