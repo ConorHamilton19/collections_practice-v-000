@@ -17,7 +17,7 @@ end
 
 
 
-def reverse_array(array)
-  array.collect {|words| words.reverse}
+def sort_array_desc(array)
+  array.sort{|a,b| b<=>a}
 end
 
